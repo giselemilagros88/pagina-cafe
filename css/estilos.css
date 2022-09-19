@@ -99,7 +99,7 @@
     }
 }
 
-@media screen and (max-width:965px) and (orientation: landscape){
+@media screen and (max-width:1000px) and (orientation: landscape){
     h1{
         font-size: 1.2rem;
     }
@@ -122,4 +122,5 @@
     .piePagina{
         height: 3rem;
     }
+
 }
