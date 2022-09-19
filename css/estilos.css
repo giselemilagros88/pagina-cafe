@@ -98,3 +98,28 @@
         height: 3rem;
     }
 }
+
+@media screen and (max-width:965px) and (orientation: landscape){
+    h1{
+        font-size: 1.2rem;
+    }
+    .galeria{
+        display: flex;
+        justify-content: center;
+    } 
+    .carousel-item{
+        width:100%;
+        height: 55vh;
+    }
+    .carousel-item img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .icon{
+        font-size: 1.5rem;
+    }
+    .piePagina{
+        height: 3rem;
+    }
+}
